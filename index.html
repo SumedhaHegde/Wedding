@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Hind:wght@300;400&family=Lato:wght@100&family=Pacifico&family=Pixelify+Sans:wght@700&family=Playfair+Display:ital@1&family=Playpen+Sans:wght@500&family=Young+Serif&display=swap");
+
+      * {
+  margin: 0;
+}
+body{
+  background-image: url(plain.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 50px;
+  width: 100%;
+  
+ 
+}
+.nav {
+   display: flex; 
+  justify-content: space-evenly;
+   margin-top: 10px;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 35px;
+  font-family: "Gabarito", sans-serif;
+  font-family: "Hind", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Playpen Sans", cursive;
+  font-family: "Young Serif", serif;
+  color: #8e0027;
+  margin: 0 50px;
+
+}
+a:hover {
+  color: whitesmoke;
+  border: 3px white double;
+  border-radius: 5px;
+}
+
+.content {
+  text-align: center;
+  font-size: 35px;
+  
+}
+h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px;
+  color: #8A2387;
+  -webkit-text-stroke: 2px #E94057;
+}
+p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px;
+  color: #8A2387;
+  -webkit-text-stroke: 2px #F27121;
+
+}
+
+.content img {
+      max-width: 100%;
+      border-radius: 50%;
+      animation: spin 4s linear ; 
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg) }
+      100% { transform: rotate(360deg) }
+    }
+    .content h1, .content p {
+        transition: color 0.3s ease; 
+      }
+
+      .content h1:hover, .content p:hover {
+        color: whitesmoke;
+      }
+
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav">
+        <a href="home.hTML">Home </a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+       
+        <a href="contact.html">Contact</a>
+      </div> 
+      <div class="content">
+        <h1>Welcome to Riidhaa Wedding Management</h1>
+        <p>Your dream wedding, our expertise.</p>
+        <img src="Riidhaa.png" alt="">
+
+      
+    </div>
+  </body>
+</html> 
+
+

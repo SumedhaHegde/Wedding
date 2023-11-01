@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body{
+        height: 100%;
+        width: 100%;
+        background-image: url(h.jpg);
+      background-size:cover;
+
+        background-repeat: no-repeat;
+      }
+      h1{
+        text-align: center;
+        color: #f7ff00;
+        font-size: 45px;
+        font-family: cursive;
+        -webkit-text-stroke: 2px whitesmoke;
+      }
+      h2{
+        text-align: center;
+        color: #FF0000;
+        font-size: 35px;
+      }
+      .box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+        position: relative;
+      }
+      .venue {
+        height: 400px;
+        width: 400px;
+        background-color:#FFEFBA;
+        border: solid;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+
+      }
+      .venue1 {
+        height: 100px;
+        width: 100px;
+        background-color: antiquewhite;
+        position: relative;
+        left: 10px;
+        top: 50px;
+      }
+      .venue2 {
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        position: relative;
+        bottom: 50px;
+        right: 0px;
+        left: 280px;
+      }
+      .venue3 {
+        height: 100px;
+        width: 100px;
+        background-color: #4ca1af;
+        position: relative;
+        bottom: 150px;
+        left: 138px;
+      }
+      .venue4 {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        position: relative;
+        left: 10px;
+        bottom: 80px;
+      }
+      .venue5 {
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        position: relative;
+        left: 140px;
+        bottom: 180px;
+      }
+      .venue6 {
+        height: 100px;
+        width: 100px;
+        background-color: purple;
+        position: relative;
+        left: 280px;
+        bottom: 280px;
+      }
+      .venue img {
+        height: 100px;
+        width: 100px;
+        box-shadow: 5px 5px 5px #ADA996;
+      }
+
+      .bride {
+        margin-top: 80px;
+        height:450px;
+        width: 450px;
+        background-color:#99f2c8;
+        border-radius: 50%;
+        border: solid;}
+        
+        .bride img {
+        height: 100px;
+        width: 100px;
+        box-shadow: 5px 5px 5px #ADA996;
+      }
+      .mehandi{
+        
+        height: 100px;
+        width: 100px;
+        background-color: purple;
+        position: relative;
+        left:250px;
+        top: 15px;
+      }
+      .mua{
+        
+        height: 100px;
+        width: 100px;
+        background-color: purple;
+        position: relative;
+        left:100px;
+        top: 10px;
+      }
+      
+      .jel{
+        
+        height: 100px;
+        width: 100px;
+        background-color: purple;
+        position: relative;
+        left:300px;
+        bottom: 10px;
+      }
+      .dress{
+        
+        height: 100px;
+        width: 100px;
+        background-color: purple;
+        position: relative;
+        left:130px;
+        bottom: 40px;
+      }
+      .groom{
+       margin: 50px 0px 500px -250px;
+        height:200px;
+        width: 300px;
+        background-color:#ffc0cb;
+        border-top-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border: solid;
+    }
+    .mua1{
+      height: 100px;
+      width: 100px;
+      background-color:purple;
+      position:relative;
+      left: 50px;
+      top: 10px;
+    }
+    .dress1{
+      height: 100px;
+      width: 100px;
+      background-color:purple;
+      position:relative;
+      left: 150px;
+      bottom: 80px;
+    }
+   
+    .mehandi,
+.mua,.mua1,.dress1
+.jel,
+.dress,.venue1,.venue2,.venue3,.venue4,.venue5,.venue6{
+  transition: transform 0.3s ease-in-out;
+}
+
+.mehandi:hover,
+.mua:hover,
+.jel:hover,
+.dress:hover ,.venue1:hover,.venue2:hover,.venue3:hover,.venue4:hover,.venue5:hover,.venue6:hover,.mua1:hover,.dress1:hover{
+  transform: scale(1.1);
+}
+    </style>
+  </head>
+  <body>
+    <h1>Services</h1>
+    <div class="box">
+      <div class="venue">
+        <h2 style="text-align: center;">Venue</h2>
+        <div class="venue1"><img src="hall.jpg" alt="" /><b style="font-size: 25px; ">Hall</b></div>
+        <div class="venue2"><img src="garden.jpg" alt="" /><b style="font-size: 25px">Garden</b></div>
+        <div class="venue3"><img src="mantapa.webp" alt="" /><b style="font-size: 25px;">Mantapa</b></div>
+        <div class="venue4"><img src="resort.jpg" alt="" /><b style="font-size: 25px;">Resort</b></div>
+        <div class="venue5"><img src="hotel.jpg" alt="" /><b style="font-size: 25px;">Hotel</b></div>
+        <div class="venue6"><img src="farmhouse.jpg" alt="" /><b style="font-size: 23px;">FarmHouse</b></div>
+      </div>
+
+      <div class="bride">
+        <h2>Bride</h2>
+       <div class="mehandi"><img src="mehandi.jpg" alt=""><b style="font-size: 23px;">Mehandi</b></div>
+       <div class="mua"><img src="MUA.jpeg" alt=""><b style="font-size: 23px;">MUA</b></div>
+       <div class="jel"><img src="jewellery.jpeg" alt=""><b style="font-size: 23px;">Jewellery</b></div>
+       <div class="dress"><img src="dress.jpg" alt=""><b style="font-size: 23px;">Dress</b></div>
+    
+       <div class="groom">
+        <h2>Groom</h2>  
+       <div class="mua1"><img src="groom.jpg" alt=""><b style="font-size: 23px;">Mua</b></div>
+       <div class="dress1"><img src="gdress.avif" alt=""><b style="font-size: 23px;">Dress</b></div>
+
+      <!-- <div class="Vendors">
+        <h2>Vendors</h2>
+        <div class="v1">Florist</div>
+        <div class="v2">Transport</div>
+        <div class="v3">MUsic</div>
+        <div class="v4">Invitation</div>
+        <div class="v5">Planning</div>
+        <div class="v6">Films</div>
+        <div class="v7">Foods</div>
+        <div class="v8">Gifts</div>2
+      </div> -->
+    </div>
+  </body>
+</html>
+
